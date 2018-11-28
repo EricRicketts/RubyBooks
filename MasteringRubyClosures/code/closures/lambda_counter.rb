@@ -6,11 +6,11 @@
 # We make no guarantees that this code is fit for any purpose.
 # Visit http://www.pragmaticprogrammer.com/titles/btrubyclo for more book information.
 #---
-Counter = lambda do
-  x = 0                    
-  get_x = lambda { x }     
-  incr = lambda { x += 1 } 
-  decr = lambda { x += 1 } 
+CounterLambda = lambda do
+  x = 0
+  get_x = lambda { x }
+  incr = lambda { x += 1 }
+  decr = lambda { x -= 1 }
 
-  {get_x: get_x, incr: incr, decr: decr}      
+  {get_x: get_x, incr: incr, decr: decr}
 end

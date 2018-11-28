@@ -6,7 +6,7 @@
 # We make no guarantees that this code is fit for any purpose.
 # Visit http://www.pragmaticprogrammer.com/titles/btrubyclo for more book information.
 #---
-class Counter
+class CounterClass
   def initialize
     @x = 0
   end
