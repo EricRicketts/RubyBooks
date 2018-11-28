@@ -519,6 +519,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "MasteringRubyClosures/test/closures/lexical_scoping_test.rb",
+			"settings":
+			{
+				"buffer_size": 665,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -569,7 +578,11 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/ericricketts/Documents/RubyBooks"
+		"/Users/ericricketts/Documents/RubyBooks",
+		"/Users/ericricketts/Documents/RubyBooks/MasteringRubyClosures",
+		"/Users/ericricketts/Documents/RubyBooks/MasteringRubyClosures/test",
+		"/Users/ericricketts/Documents/RubyBooks/MasteringRubyClosures/test/closures",
+		"/Users/ericricketts/Documents/RubyBooks/MetaprogrammingRuby"
 	],
 	"file_history":
 	[
@@ -735,8 +748,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "MasteringRubyClosures/test/closures/lexical_scoping_test.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								659,
+								659
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
