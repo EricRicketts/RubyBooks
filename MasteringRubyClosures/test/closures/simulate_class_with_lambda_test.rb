@@ -30,6 +30,19 @@ class SimulateClassWithLambdaTest < Minitest::Test
     ]
     assert_equal(expected, results)
   end
+
+  def test_instances
+    c1 = CounterLambda.call
+    c2 = CounterLambda.call
+
+    expected = [0, 1, 2, 2]
+    results = [
+      c1[:get_x].call, c1[:incr].call,
+      c1[:incr].call, c1[:get_x].call
+    ]
+    assert_equal(expected, results)
+    assert_equal(0, c2[:get_x].call)
+  end
 end
 
 =begin
@@ -39,4 +52,8 @@ of the lambda to initialize the local variable x to zero.
 
 And the return value is a hash where I can call the appropriate
 lambdas to perform the desired operations.
+
+Note just like classes we had to make two new instances of the lambda
+based counter in the last test.  However, we can see that actions by
+one did not change the state of the other local variable.
 =end
