@@ -36,5 +36,15 @@ class FirstClassValuesTest < Minitest::Test
 end
 
 =begin
+Something is considered as a first class value, sometimes called
+first class citizen if it can do 3 things:
 
+1.  thing in question can be assigned to a variable, notice
+instance variable @is_even is assigned to a lambda
+2.  thing in question can be passed into to a method as
+part of a method parameter list.  Notice in both versions
+of #complement predicate is a lambda.
+3.  Finally, thing in question can serve as a return value
+from a method, note in @complement_version_two this is what
+is happening.
 =end
