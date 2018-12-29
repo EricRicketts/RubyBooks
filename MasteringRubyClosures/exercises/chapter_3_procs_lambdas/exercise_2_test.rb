@@ -7,7 +7,7 @@ class SpiceGirl
 
   def self.to_proc
     Proc.new do |name, nick|
-      SpiceGirl.new(name, nick).inspect
+      new(name, nick)
     end
   end
 
@@ -39,7 +39,7 @@ class Exercise2Test < Minitest::Test
       "Emma B (Baby Spice)", "Geri H (Ginger Spice)",
       "Vic B (Posh Spice)"
     ]
-    result = spice_girls.map(&SpiceGirl)
+    result = spice_girls.map(&SpiceGirl).map(&:inspect)
     assert_equal(expected, result)
   end
 end
