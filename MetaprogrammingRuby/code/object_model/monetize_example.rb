@@ -6,8 +6,10 @@
 # We make no guarantees that this code is fit for any purpose.
 # Visit http://www.pragmaticprogrammer.com/titles/ppmetr2 for more book information.
 #---
+require 'pry-byebug'
 require "monetize"
 
+Money.locale_backend = nil
 bargain_price = Monetize.from_numeric(99, "USD")
 bargain_price.format # => "$99.00"
 

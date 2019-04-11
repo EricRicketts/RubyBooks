@@ -520,10 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "MasteringRubyClosures/test/closures/lexical_scoping_test.rb",
+			"file": "MetaprogrammingRuby/test/object_model/constants_test.rb",
 			"settings":
 			{
-				"buffer_size": 665,
+				"buffer_size": 828,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -579,13 +579,14 @@
 	"expanded_folders":
 	[
 		"/Users/ericricketts/Documents/RubyBooks",
-		"/Users/ericricketts/Documents/RubyBooks/MasteringRubyClosures",
-		"/Users/ericricketts/Documents/RubyBooks/MasteringRubyClosures/test",
-		"/Users/ericricketts/Documents/RubyBooks/MasteringRubyClosures/test/closures",
-		"/Users/ericricketts/Documents/RubyBooks/MetaprogrammingRuby"
+		"/Users/ericricketts/Documents/RubyBooks/MetaprogrammingRuby",
+		"/Users/ericricketts/Documents/RubyBooks/MetaprogrammingRuby/test",
+		"/Users/ericricketts/Documents/RubyBooks/MetaprogrammingRuby/test/object_model"
 	],
 	"file_history":
 	[
+		"/Users/ericricketts/Documents/RubyBooks/MetaprogrammingRuby/test/object_model/object_instance_variables_test.rb",
+		"/Users/ericricketts/Documents/RubyBooks/MasteringRubyClosures/test/closures/lexical_scoping_test.rb",
 		"/Users/ericricketts/Documents/RubyBooks/.gitignore",
 		"/Users/ericricketts/Documents/RubyBooks/MasteringRubyClosures/code/closures/generator.rb",
 		"/Users/ericricketts/Documents/RubyBooks/MasteringRubyClosures/code/closures/test/simulating_classes_with_closures_test.rb",
@@ -711,9 +712,7 @@
 		"/Users/EricRicketts/Documents/LaunchSchool/PrepatoryWork/FrontEndPrep/LearnToCodeHTMLAndCSS/Typography/assets/stylesheets/main.css",
 		"/Users/EricRicketts/Documents/HTMLAndCSS/experiments/box_model_and_positioning/assets/stylesheets/relative_position.css",
 		"/Users/EricRicketts/Documents/HTMLAndCSS/experiments/box_model_and_positioning/assets/stylesheets/reset.css",
-		"/Users/EricRicketts/Documents/LaunchSchool/PrepatoryWork/FrontEndPrep/LearnToCodeHTMLAndCSS/PositioningContent/positioning-content/assets/stylesheets/main.css",
-		"/Users/EricRicketts/Documents/LaunchSchool/PrepatoryWork/FrontEndPrep/LearnToCodeHTMLAndCSS/PositioningContent/positioning-content/index.html",
-		"/Users/EricRicketts/Documents/HTMLAndCSS/experiments/box_model_and_positioning/assets/stylesheets/cleared_floats.css"
+		"/Users/EricRicketts/Documents/LaunchSchool/PrepatoryWork/FrontEndPrep/LearnToCodeHTMLAndCSS/PositioningContent/positioning-content/assets/stylesheets/main.css"
 	],
 	"find":
 	{
@@ -753,19 +752,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "MasteringRubyClosures/test/closures/lexical_scoping_test.rb",
+					"file": "MetaprogrammingRuby/test/object_model/constants_test.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 665,
+						"buffer_size": 828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								659,
-								659
+								0,
+								0
 							]
 						],
 						"settings":
