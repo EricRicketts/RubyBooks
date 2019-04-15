@@ -27,4 +27,11 @@ class ComputerMissingMethodTest < Minitest::Test
     expected = 'Keyboard: USB Keyboard ($20)'
     assert_equal(expected, computer.keyboard)
   end
+
+  def test_respond_to_ghost_methods
+    # skip
+    [:mouse, :cpu, :keyboard].each do |method|
+      computer.respond_to?(method)
+    end
+  end
 end
