@@ -16,8 +16,4 @@ class ComputerMissingMethod < BasicObject
     return "* #{result}" if price >= 100
     result
   end
-
-  # def respond_to_missing?(name, include_private = false)
-  #   data_source.respond_to?("get_#{name}_info") || super
-  # end
 end
