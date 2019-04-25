@@ -1,6 +1,6 @@
 require_relative './data_source'
 
-class ComputerMissingMethod
+class ComputerMissingMethod < BasicObject
   attr_reader :id, :data_source
 
   def initialize(id, data_source)
@@ -17,7 +17,7 @@ class ComputerMissingMethod
     result
   end
 
-  def respond_to_missing?(name, include_private = false)
-    data_source.respond_to?("get_#{name}_info") || super
-  end
+  # def respond_to_missing?(name, include_private = false)
+  #   data_source.respond_to?("get_#{name}_info") || super
+  # end
 end
